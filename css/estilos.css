@@ -1,0 +1,9 @@
+.foto{
+	margin:0 auto;
+	width:60%;
+}
+
+.foto img{
+	height:auto;
+	max-width:80%;
+}

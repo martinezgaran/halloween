@@ -1,0 +1,12 @@
+.contenidoinicio p{
+	padding-bottom: 20px;
+}
+
+#photos-container {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#photos-container  img {
+    max-width: 100%;
+}

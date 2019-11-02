@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+
+
+	<!-- SE PONEN PRIMERO LOS JS -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+
+	<!-- ESTRUCTURA MOBILE -->
+	
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile.structure-1.4.5.min.css">
+	
+
+	<!-- TEMAS DE JQUERY -->
+
+	 <link rel="stylesheet" href="css/halloween.min.css">
+	 <link rel="stylesheet" href="css/jquery.mobile.icons.min.css">
+
+	 <!-- MIS ESTILOS -->
+
+	<link rel="stylesheet" href="css/estilos.css">
+
+
+	<!-- ADAPTACION WEB -->
+	<meta name="viewport" content="width=device-width,  initial-scale=1.0 ">
+
+
+
+
+	<meta charset="UTF-8">
+	<title>Web Halloween</title>
+</head>
+<body>
+
+
+
+	<!-- PAG INICIO -->
+
+
+
+	<div data-theme="a" id="inicio" data-role="page">
+
+		<div  data-role="header" data-theme="a">
+
+			<div data-display="overlay" data-position="left" data-role="panel" id="mipanel">
+				<ul data-role="listview">
+					<li><a href="#historia">HISTORIA</a></li>
+					<li><a href="#dulce">DULCE O TRATO</a></li>
+					<li><a href="#actualidad">ACTUALIDAD</a></li>
+					<li><a href="#" data-rel="close" >CERRAR</a></li>
+				</ul>
+			</div>
+
+			<h1>HALLOWEEN</h1>
+			
+		</div>
+		<div id="contenidoinicio" data-role="content" align="center" data-theme="a">
+			<p>BIENVENIDO, APRENDE TODO SOBRE EL HALLOWEEN AQUI! </p>
+				<img src="https://media.giphy.com/media/vl8ncD72EnhoA/source.gif" alt="">
+			<br>
+			<a href="#mipanel" data-role="button">Menu</a>
+			
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="a">
+			
+			<div data-role="navbar">
+				<ul>
+					<li><a data-transition="sildeup" href="#inicio" data-icon="home">INICIO</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- FIN PAG INICIO -->
+
+
+
+
+
+	
+	<!--  HISTORIA -->
+
+
+	<div data-theme="b" id="historia" data-role="page">
+			<div data-role="header" data-theme="a">
+				<h1>HALLOWEEN</h1>
+			</div>
+			<div data-role="content" data-theme="a">
+
+					<h3>HISTORIA DEL HALLOWEEN</h3>
+					<p>Halloween es una forma en inglés —ya en desuso— para referirse a los santos, proveniente a su vez del anglosajón haliga, halga que significa «santo», «santificar» o «consagrar». A su vez, even o eve, designa la parte final del día, esto es, la víspera del día siguiente. Es, además, el nombre en inglés que reciben la vigilias de las fiestas litúrgicas del cristianismo.</p>
+
+
+					<div id="photos-container" class="ui-block-a">
+                        <img style="display: block;" id="smallImage" src="https://media.giphy.com/media/h2CfczI1ggcspHZ26z/source.gif" />
+                    </div
+
+					<p>Recientemente se ha reivindicado otro origen: la mesnie o mesnada, ejército, compañía o procesión de muertos. Según testimonio de Guillermo de Auvernia en el siglo XIII, la procesión de difuntos se denominaba «vulgari gallicano Hellequin et vulgari hispanico exercitus antiquus» («en galicano Hellequini y en hispánico ejército antiguo o hueste antigua»). La etimología Hallows' Eve para Halloween entonces ha de ser una interpretación erudita; nombre y contenido enlazan con el folklore de la Cacería salvaje, la Santa Compaña, la estantigua (estántiga10​ en gallego y portugués). El término Halloween en sí mismo sería una derivación del nombre dado al capitán de esta procesión de muertos, que a su vez provendría de tradiciones antiguas del Norte de Europa; este nombre, según esta teoría, acabó derivando también en Arlequín.</p>
+				
+			</div>
+
+
+			<div data-role="footer" data-position="fixed" data-theme="a">
+				<div data-role="navbar">
+					<ul>
+						<li><a data-transition="slideup" href="#inicio" data-icon="home">INICIO</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!-- FIN HISTORIA -->
+
+
+	<!-- DULCE O TRATO -->
+
+
+	<div data-theme="b" id="dulce" data-role="page">
+			<div data-role="header" data-theme="a">
+				<h1>HALLOWEEN</h1>
+			</div>
+			<div align="center" data-role="content" data-theme="a">
+
+					<h3>DULCE O TRATO</h3>
+
+					<div id="photos-container" class="ui-block-a">
+                        <img style="display: block;"  src="img/descarga.jpeg" />
+                    </div>
+					
+
+
+					<p>Originalmente el truco o trato (en inglés «Trick-or-treat») era una leyenda popular de origen céltico según la cual no solo los espíritus de los difuntos eran libres de vagar por la Tierra la noche de Halloween, sino toda clase de entes procedentes de todos los reinos espirituales. Entre ellos había uno terriblemente malévolo que deambulaba por pueblos y aldeas, yendo de casa en casa pidiendo precisamente «truco o trato». La leyenda asegura que lo mejor era hacer trato, sin importar el costo que este tuviera, pues de no pactar con este espíritu (que recibiría el nombre de jack-o'-lantern, con el que se conocen a las tradicionales calabazas de Halloween), él usaría sus poderes para hacer «truco», que consistiría en maldecir la casa y a sus habitantes, dándoles toda clase de infortunios y maldiciones, como enfermar a la familia, matar al ganado con pestes o hasta quemar la propia vivienda. Como protección surgió la idea de crear en las calabazas formas horrendas, para así evitar encontrarse con dicho espectro (y con el tiempo, debido a la asociación mental entre el espíritu y las calabazas[cita requerida], el nombre de este sería dado a ellas, que es como son conocidas hoy día cuando llega esta fiesta).</p>
+			</div>
+
+
+			<div data-role="footer" data-position="fixed" data-theme="a">
+				<div data-role="navbar">
+					<ul>
+						<li><a data-transition="slideup" href="#inicio" data-icon="home">INICIO</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!-- FIN DULCE O TRATO -->
+
+
+
+	<!-- INICIO ACTUALIDAD -->
+
+
+	<div data-theme="b" id="actualidad" data-role="page">
+			<div data-role="header" data-theme="a">
+				<h1>HALLOWEEN</h1>
+			</div>
+			<div align="center" data-role="content" data-theme="a">
+
+					<h3>DULCE O TRATO</h3>
+					
+					<p>Hoy en día, Halloween es una de las fechas más importantes del calendario festivo estadounidense y canadiense. Algunos países iberoamericanos, conociendo aún esta festividad, tienen sus propias tradiciones y celebraciones ese mismo día, aunque coinciden en cuanto a su significado: la unión o extrema cercanía del mundo de los vivos y el reino de los muertos:
+					En Europa son muchas las ciudades en las que los jóvenes han decidido importar el modo con el que Estados Unidos concibe Halloween celebrándolo con fiestas y disfraces. Aunque en algunos lugares, como Inglaterra, la fiesta original ha arraigado de nuevo..</p>
+					
+					<div id="photos-container" class="ui-block-a">
+                        <img style="display: block;" id="smallImage" src="img/hallloooooo.jpg" />
+                    </div>
+			</div>
+
+
+			<div data-role="footer" data-position="fixed" data-theme="a">
+				<div data-role="navbar">
+					<ul>
+						<li><a data-transition="slideup" href="#inicio" data-icon="home">INICIO</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!-- FIN ACTUALIDAD-->
+
+
+
+</body>
+</html>
